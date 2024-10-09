@@ -1,0 +1,90 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "AI Image Generator"
+      }
+    },
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationBarTitleText": "Login"
+      }
+    },
+    {
+      "path": "pages/register/register",
+      "style": {
+        "navigationBarTitleText": "Register"
+      }
+    },
+    {
+      "path": "pages/subscription/subscription",
+      "style": {
+        "navigationBarTitleText": "Subscription Plans"
+      }
+    },
+    {
+      "path": "pages/character-creation/character-creation",
+      "style": {
+        "navigationBarTitleText": "Create Character"
+      }
+    },
+    {
+      "path": "pages/image-generation/image-generation",
+      "style": {
+        "navigationBarTitleText": "Generate Image"
+      }
+    },
+    {
+      "path": "pages/face-swap/face-swap",
+      "style": {
+        "navigationBarTitleText": "Face Swap"
+      }
+    },
+    {
+      "path": "pages/gallery/gallery",
+      "style": {
+        "navigationBarTitleText": "My Gallery"
+      }
+    },
+    {
+      "path": "pages/settings/settings",
+      "style": {
+        "navigationBarTitleText": "Settings"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "AI Image Generator",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/home-active.png",
+        "text": "Home"
+      },
+      {
+        "pagePath": "pages/gallery/gallery",
+        "iconPath": "static/gallery.png",
+        "selectedIconPath": "static/gallery-active.png",
+        "text": "Gallery"
+      },
+      {
+        "pagePath": "pages/settings/settings",
+        "iconPath": "static/settings.png",
+        "selectedIconPath": "static/settings-active.png",
+        "text": "Settings"
+      }
+    ]
+  }
+}
